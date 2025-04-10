@@ -15,5 +15,8 @@ public class HomeController {
 		return ResponseEntity.ok("welcome to git ");
 	}
 
-	
+	@GetMapping("/welcomeAgain")
+	public ResponseEntity<String>welcomeAgain(){
+		return ResponseEntity.ok("welcome Again ");
+	}
 }
